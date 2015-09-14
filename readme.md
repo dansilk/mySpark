@@ -2,6 +2,15 @@
 
 This repo contains notebook exercises for a workshop teaching the best practices of using Spark for practicing data scientists in the context of a data scientist’s standard workflow. By leveraging Spark’s APIs for Python and R to present practical applications, the technology will be much more accessible by decreasing the barrier to entry.
 
+## Materials
+
+For the workshop (and after) we will use a Gitter chatroom to keep the conversation going: https://gitter.im/Jay-Oh-eN/data-scientists-guide-apache-spark.
+
+And/or please do not hesitate to reach out to me directly via email at jonathan@galvanize.com or over twitter @clearspandex
+
+The presentation can be found on Slideshare [here](http://www.slideshare.net/jonathandinu/the-data-scientists-guide-to-apache-spark).
+
+
 ## Prerequisites
 
 Prior experience with Python and the scientific Python stack is beneficial.  Also knowledge of data science models and applications is preferred.  This will not be an introduction to Machine Learning or Data Science, but rather a course for people proficient in these methods on a small scale to understand how to apply that knowledge in a distributed setting with Spark.
@@ -35,11 +44,11 @@ library(SparkR)
 sc <- sparkR.init(master="local")
 ```
 
-Spark References
-================
+## Data
 
-IPython Console Help
---------------------
+The notebooks use a few datasets.  For the DonorsChoose data, you can read the documentation [here](http://data.donorschoose.org/) and download a zip (~0.5 gb) from: http://hopelessoptimism.com/static/data/donors_choose.zip
+
+## IPython Console Help
 
 Q: How can I find out all the methods that are available on DataFrame?
 
@@ -51,8 +60,7 @@ Q: How can I find out all the methods that are available on DataFrame?
 
 - This will display the API documentation for that method.
 
-Spark Documentation
--------------------
+## Spark Documentation
 
 Q: How can I find out more about Spark's Python API, MLlib, GraphX,
 Spark Streaming, deploying Spark to EC2?
@@ -69,8 +77,7 @@ Spark Streaming, deploying Spark to EC2?
 
 - More > Configuration, Monitoring, Tuning Guide.
 
-References
-----------
+## References
 
 ### Setup
 
